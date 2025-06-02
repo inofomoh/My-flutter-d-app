@@ -1,0 +1,13 @@
+name: flutter_tflite_app
+description: A simple Flutter app using TensorFlow Lite for image classification.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+4
+  tflite_flutter: ^0.10.0
+
+flutter:
+  assets:
+    - assets/mobilenet_v1_1.0_224.tflite
+    - assets/labels.txt
